@@ -250,3 +250,71 @@ body {
         cursor: pointer;
       }
       
+      footer{
+        background-color: rgba(170, 170, 170, 0.1);
+      }
+      
+      .inspiration{
+        width: 88.84% ;
+        margin-left: 5.58%;
+        
+      }
+      .footer-header{
+        padding-top: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 1px;
+        border-bottom: #A4A4A4 solid 1 px;
+        margin-left: 10px;
+      }
+      
+      .inspo-scrollbar{
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;       
+        white-space: nowrap;    
+        margin-bottom: 10px; 
+        scroll-behavior: smooth; 
+        margin-top: 15px; 
+        margin-bottom: 10px;
+        padding-top: 5px;
+        border-bottom: grey solid 0.5px;
+      }
+      
+      .inspo-scrollbar-items{
+        margin: 0 10px 0 10px;
+        font-weight: 300;
+        font-size:0.8em;
+      }
+      
+      inspo-places-container {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.8em;
+      gap: 1px;
+      }
+      
+      
+      
+      .inspo-loca-type{
+        font-weight: 200;
+      }
+      
+      .inspo-places{
+        display: grid;
+        grid-template-columns: 200px 200px ;
+        grid-template-rows: 75px 75px 75px 75px;
+        margin-top: 30px;
+        font-size: 0.9em;
+        border-bottom: grey solid 0.5px;
+        
+      }
+      .show-more-2{
+        display: flex;
+      }
+      
+      
+      .arrow{
+        margin-left: 5px;
+        margin-top: 4px;
+      }
