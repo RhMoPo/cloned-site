@@ -122,248 +122,284 @@ body {
       background-color: transparent;
       margin-left: 10px;
     }
-
-    main {
-        width: 428px;
-        /* position: relative; */
-      }
-      
-      .ad-card {
-        width: 382px;
-        height: 464.9px;
-        margin: 24px;
-        
-      }
-      
-      
-      .section {
-        display: flex;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-      }
-      
-      .section__item {
-        scroll-snap-align: start;
-      }
-      
-      .section__item img {
-        width: 382px;
-        height: 362.9px;
-        border-radius: 15px;
-      }
-      
-      .location-rating {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      
-      }
-      
-      .section{
-        border-radius: 15px;
-        display: flex;
-        
-      }
-      
-      .overlay {
-        position: absolute;
-        z-index: 1;
-        display: flex;
-        margin-top: 18px; 
-        margin-left: 15px;
-        
-        
-      }
-      
-      .overlay-img {
-        fill: rgba(86, 86, 86, 0.25);
-        height: 24px;
-        width: 24px;
-        stroke: var(--f-mkcy-f);
-        stroke-width: 2;
-        overflow: visible;
-        background-color: transparent;
-        
-      }
-      
-      .guest-fav{
-        background-color:white;
-        padding: 4px;
-        border-radius: 30px;
-        right: 20px;
-        margin-right: 210px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-      
-      .ad-info{
-        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-        font-size: 15px;
-      }
-      
-      .location {
-        font-weight: 500;
-      }
-      
-      .view-type{
-        font-weight: 200;
-      }
-      
-      .date-host-type{
-        font-weight: 200;
-      }
-      
-      .price{
-        margin-top: 5px;
-        text-decoration: underline;
-      }
-      
-      #money{
-        font-weight: bold;
-      }
-      
-      
-      .main-bottom{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px;
-      
-      }
-      
-      .main-bottom-text{
-        margin-top: 20px;
-      }
-      
-      .main-bottom-button{
-        margin-top: 10px;
-      }
-      
-      .show-more{
-        background-color: black;
-        color: white;
-        border-radius: 7px;
-        padding: 10px 20px 10px 20px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        cursor: pointer;
-      }
-      
-      footer{
-        background-color: rgba(170, 170, 170, 0.1);
-      }
-      
-      .inspiration{
-        width: 88.84% ;
-        margin-left: 5.58%;
-        
-      }
-      .footer-header{
-        padding-top: 30px;
-        font-weight: 500;
-        font-size: 18px;
-        letter-spacing: 1px;
-        border-bottom: #A4A4A4 solid 1 px;
-        margin-left: 10px;
-      }
-      
-      .inspo-scrollbar{
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;       
-        white-space: nowrap;    
-        margin-bottom: 10px; 
-        scroll-behavior: smooth; 
-        margin-top: 15px; 
-        margin-bottom: 10px;
-        padding-top: 5px;
-        border-bottom: grey solid 0.5px;
-      }
-      
-      .inspo-scrollbar-items{
-        margin: 0 10px 0 10px;
-        font-weight: 300;
-        font-size:0.8em;
-      }
-      
-      inspo-places-container {
-      display: flex;
-      flex-direction: column;
-      font-size: 0.8em;
-      gap: 1px;
-      }
-      
-      
-      
-      .inspo-loca-type{
-        font-weight: 200;
-      }
-      
-      .inspo-places{
-        display: grid;
-        grid-template-columns: 200px 200px ;
-        grid-template-rows: 75px 75px 75px 75px;
-        margin-top: 30px;
-        font-size: 0.9em;
-        border-bottom: grey solid 0.5px;
-        
-      }
-      .show-more-2{
-        display: flex;
-      }
-      
-      
-      .arrow{
-        margin-left: 5px;
-        margin-top: 4px;
-      }
-
-      .support,
-.hosting,
-.airbnbfoot {
+  * --------------------------main-------------------------------------------- */
+  main {
+    width: 428px;
+    /* position: relative; */
+  }
+  
+  .ad-card {
+    width: 382px;
+    height: 464.9px;
+    margin: 24px;
+    
+  }
+  
+  
+  .section {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .section__item {
+    scroll-snap-align: start;
+  }
+  
+  .section__item img {
+    width: 382px;
+    height: 362.9px;
+    border-radius: 15px;
+  }
+  
+  .location-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .section{
+    border-radius: 15px;
+    display: flex;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin-top: 18px; 
+    margin-left: 15px;
+    
+    
+  }
+  
+  .overlay-img {
+    fill: rgba(86, 86, 86, 0.25);
+    height: 24px;
+    width: 24px;
+    stroke: var(--f-mkcy-f);
+    stroke-width: 2;
+    overflow: visible;
+    background-color: transparent;
+    
+  }
+  
+  .guest-fav{
+    background-color:white;
+    padding: 4px;
+    border-radius: 30px;
+    right: 20px;
+    margin-right: 210px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .ad-info{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 15px;
+  }
+  
+  .location {
+    font-weight: 500;
+  }
+  
+  .view-type{
+    font-weight: 200;
+  }
+  
+  .date-host-type{
+    font-weight: 200;
+  }
+  
+  .price{
+    margin-top: 5px;
+    text-decoration: underline;
+  }
+  
+  #money{
+    font-weight: bold;
+  }
+  
+  
+  .main-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  
+  }
+  
+  .main-bottom-text{
+    margin-top: 20px;
+  }
+  
+  .main-bottom-button{
+    margin-top: 10px;
+  }
+  
+  .show-more{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+  }
+  
+  
+  footer{
+    background-color: rgba(170, 170, 170, 0.1);
+  }
+  
+  .inspiration{
+    width: 88.84% ;
+    margin-left: 5.58%;
+    
+  }
+  .footer-header{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-bottom: #A4A4A4 solid 1 px;
+    margin-left: 10px;
+  }
+  
+  .inspo-scrollbar{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;       
+    white-space: nowrap;    
+    margin-bottom: 10px; 
+    scroll-behavior: smooth; 
+    margin-top: 15px; 
+    margin-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: grey solid 0.5px;
+  }
+  
+  .inspo-scrollbar-items{
+    margin: 0 10px 0 10px;
+    font-weight: 300;
+    font-size:0.8em;
+  }
+  
+  inspo-places-container {
   display: flex;
-  gap: 20px;
   flex-direction: column;
-  margin-left: 5.58%;
-  margin-top: 30px;
-  font-size: 0.9em;
-  font-weight: 300;
-  border-bottom: grey solid 0.5px;
-  padding-bottom: 30px;
-}
-
-.sup-title,
-.host-title,
-.airbnbfoottit {
-  font-weight: 500;
-}
-
-
-.currency {
-  gap: 10px;
-}
-
-.footerbottom {
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
-  margin-left: 5.58%;
-  margin-top: 30px;
-  font-size: 0.9em;
-  font-weight: 300;
-  border-bottom: grey solid 0.5px;
-  padding-bottom: 30px;
-  font-weight: 400;
-}
-
-.world-lang {
-  display: flex;
-  gap: 10px;
-}
-
-.world-icon {
-  height: 16px;
-  width: 16px;
-  fill: currentColor;
-}
+  font-size: 0.8em;
+  gap: 1px;
+  }
+  
+  
+  
+  .inspo-loca-type{
+    font-weight: 200;
+  }
+  
+  .inspo-places{
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    grid-template-rows: 75px 75px 75px 75px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    border-bottom: grey solid 0.5px;
+    
+  }
+  
+  .show-more-2{
+    display: flex;
+  }
+  
+  
+  .arrow{
+    margin-left: 5px;
+    margin-top: 4px;
+  }
+  
+  .support,
+  .hosting,
+  .airbnbfoot {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 5.58%;
+    margin-top: 30px;
+    font-size: 0.9em;
+    font-weight: 300;
+    border-bottom: grey solid 0.5px;
+    padding-bottom: 30px;
+  }
+  
+  .sup-title,
+  .host-title,
+  .airbnbfoottit {
+    font-weight: 500;
+  }
+  
+  
+  .currency {
+    gap: 10px;
+  }
+  
+  .footerbottom {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-left: 5.58%;
+    margin-top: 30px;
+    font-size: 0.9em;
+    font-weight: 300;
+    border-bottom: grey solid 0.5px;
+    padding-bottom: 30px;
+    font-weight: 400;
+  }
+  
+  .world-lang {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .world-icon {
+    height: 16px;
+    width: 16px;
+    fill: currentColor;
+  }
+  
+  .footer-sticky{
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    border: solid 0.25px grey;
+    background-color: white;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+  }
+  
+  .icon-n-text-footer{
+    background-color: white;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white;
+    color: #A4A4A4;
+  
+  }
+  
+  .footer-sticky button:hover {
+      color:red; 
+    }
+  
+  .footer-text{
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
